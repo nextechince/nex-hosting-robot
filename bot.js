@@ -3265,7 +3265,7 @@ bot.onText(/\/start(.*)/, async (msg, match) => {
 
 // ─── Deploy ───
 
-bot.onText(/✦ Dᴇᴘʟᴏʏ ᴊs/, async (msg) => {
+bot.onText(/✦ Dᴇᴘʟᴏʏ Js/, async (msg) => {
     const chatId = msg.chat.id;
     const uid = String(msg.from.id);
 
