@@ -29,7 +29,7 @@ const DATA_DIR = process.env.DATA_DIR || __dirname;
 const FORCE_JOIN_CHANNELS = [
     { name: "Nᴇx 𝕿ᴇᴄʜ", link: "https://t.me/NEX_TECH_CHANNEL" },
     { name: "Nᴇx 𝕳ᴏsᴛɪɴɢ 𝖀ᴘᴅᴀᴛᴇs", link: "https://t.me/NEX_TECH_BOT_UPDATES" }, 
-    { name: "Nᴇx 𝕺ᴛᴘ 𝕲ʀᴏᴜᴘ", 
+    { name: "Nᴇx 𝕺ᴛᴘ 𝕲ʀᴏᴜᴘ", link: "https://t.me/NEX_TECH_OTP" }
     ];
 
 const BASE_DIR = DATA_DIR;
