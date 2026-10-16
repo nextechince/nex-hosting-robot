@@ -21,17 +21,16 @@ const https = require('https');
 const AdmZip = require('adm-zip');
 const moment = require('moment');
 
-const TOKEN = process.env.TOKEN || 'YOUR_JS_BOT_TOKEN';
+const TOKEN = process.env.TOKEN || '8478359719:AAFsmpCjMk0oi80nGKhlitYWGrgoarFDuWQ';
 const ADMIN_ID = 7158115683;
-const CHANNEL_ID = '@MRANONIMOUS01';
+const CHANNEL_ID = '@NEX_TECH_CHANNEL';
 const DATA_DIR = process.env.DATA_DIR || __dirname;
 
 const FORCE_JOIN_CHANNELS = [
-    { name: "𝕹ᴇx 𝕿ᴇᴄʜ", link: "https://t.me/MRANONIMOUS01" },
-    { name: "𝕹ᴇx 𝕳ᴏsᴛɪɴɢ ᴜᴘᴅᴀᴛᴇs", link: "https://t.me/PREMIUM_BOT_HOSTING_UPDATE" },
-    { name: "𝕬ᴜʀᴀ 𝕮ʜᴀᴛ", link: "https://t.me/VERIFIEDAURACHAT" }, 
-    { name: "𝕷ᴏɴᴇʀ 𝕯ᴏᴍᴀɪɴ", link: "https://t.me/lordtarrificterritory" }
-];
+    { name: "Nᴇx 𝕿ᴇᴄʜ", link: "https://t.me/NEX_TECH_CHANNEL" },
+    { name: "Nᴇx 𝕳ᴏsᴛɪɴɢ 𝖀ᴘᴅᴀᴛᴇs", link: "https://t.me/NEX_TECH_BOT_UPDATES" }, 
+    { name: "Nᴇx 𝕺ᴛᴘ 𝕲ʀᴏᴜᴘ", 
+    ];
 
 const BASE_DIR = DATA_DIR;
 const DEPLOY_DIR = path.join(BASE_DIR, 'deployed_bots');
